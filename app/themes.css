@@ -1,0 +1,43 @@
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes subtleBounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-5px); /* Adjust this value for bounce height */
+  }
+  60% {
+      transform: translateY(-2px); /* Adjust this value for bounce height */
+  }
+}
+
+
+/* Apply the animations to elements with the gray theme */
+.bouncing-element {
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.gradient-background {
+  background: linear-gradient(270deg, #3a3a3a, #4a4a4a, #5a5a5a, #6a6a6a);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+/* Make sure the background colors are consistent with the gray theme */
+body {
+  background: linear-gradient(270deg, #2e2e2e, #3c3c3c, #4a4a4a, #5e5e5e);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
