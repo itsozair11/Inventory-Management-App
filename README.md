@@ -5,5 +5,7 @@ This project is an inventory management app! The user can add items, the amount 
 
 When downloading this project you have to download everything including vercel and next by using npm install { the node module }!
 
+Check out a preview of the project here: https://inventory-management-g2srx8wil-ozairs-projects-59bee426.vercel.app/
+
 Ozair Kamran!
 
